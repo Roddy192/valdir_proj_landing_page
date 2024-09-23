@@ -55,3 +55,17 @@ body {
     font-weight: bold;
     
  }
+
+ #botao_voltar {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 115, 248);
+    border-color: rgb(204, 115, 248);
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 50px;
+ }
