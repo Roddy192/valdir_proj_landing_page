@@ -40,3 +40,19 @@ body {
         color: black;
     }
  }
+
+ table {
+    border: solid black;
+    width: 1000px;
+    height: 1200px;
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 25px;
+ }
+
+ td {
+    border: solid black;
+    width: 310px;
+    height: 310px;
+    padding: 0px;
+ }
