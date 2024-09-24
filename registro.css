@@ -41,16 +41,20 @@ body {
     font-size: 40px;
     padding-left: 5%;
     padding-right: 5%;
+    display: grid;
+    place-items: center;
 }
 
 
 #email_entr, #senha_entr {
+    display: flex;
     border-radius: 5px;
     width: 300px;
     height: 30px;
+    margin-top: 8px;
 }
  #label {
-    font-size: 30px;
+    font-size: 20px;
     font-family: Tahoma;
     font-weight: bold;
     
@@ -69,3 +73,37 @@ body {
     text-decoration: none;
     margin-top: 50px;
  }
+
+ #botao_cadastrar {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: rgb(204, 115, 248);
+    border-color: rgb(204, 115, 248);
+    margin-top: 5px;
+ }
+
+ #botao_voltar:hover, #botao_cadastrar:hover {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(94, 39, 122);
+    border-color: rgb(94, 39, 122);
+    transition: all 0.5s;
+ }
+
+ #botao_l_r {
+    color: white;
+ }
+
+ #botao_l_r:hover {
+    color: rgb(204, 115, 248);
+ }
+
+ #erro_email, #erro_senha {
+    display:none;
+    color: red;
+    font-weight: bold;
+}
+    

@@ -12,26 +12,63 @@
 <body>
     <div id="nav_bar">
         <div id="brand_nav">PsiCola</div>
-        <a href="" style="color: white;">Login</a>
-        <a href="./registro.html" style="color: white;">Registre-se</a>
+        <a href="" id="botao_l_r">Login</a>
+        <a href="./registro.html" id="botao_l_r">Registre-se</a>
     </div>
     <div id="cx_central">
-        <h1>Bem vindo ao mundo da PsiCola. Registre-se para receber novidades, promoções e fazer parte do Clube PsiCola.</h1>
-        <div id="email">
-            <label for="email_entr" id="label"> Email:</label>
-            <input type="text" id="email_entr">
-        </div>
+        <h1 id="mensagem_entrada">Bem vindo ao mundo da PsiCola. Registre-se para receber novidades, promoções e fazer parte do Clube PsiCola.</h1>
 
-        <div id="senha">
-            <label for="senha_entr" id="label"> Digite uma senha:</label>
-            <input type="text" id="senha_entr">
+        <div id="form_usuario">
+            <form id="form_cad_usuario">
+                <label for="email_entr" id="label"> Email:</label>
+                <input type="text" id="email_entr" name="email_entr" placeholder="Digite aqui o Email"><br>
+
+                <label for="senha_entr" id="label"> Senha:</label>
+                <input type="text" id="senha_entr" name="senha_entr" placeholder="Escolha uma senha"><br>
+
+                <span id="erro_email">Email inválido</span><br>
+                <span id="erro_senha">Senha inválida</span><br>
+
+                <button id="botao_cadastrar" type="button" onclick="cadastr_usuario()">Cadastrar</button>
+            </form>
         </div>
-        
+            
+        <button id="botao_voltar" onclick="window.location.replace('./landing_page.html')">Voltar</button>
     </div>
-    <button id="botao_voltar" onclick="window.location.replace('./landing_page.html')">Voltar</button>
 
     
 
     
 </body>
+<script>
+    function cadastr_usuario() {
+        var email=document.getElementById("email_entr").value;
+        var senha=document.getElementById("senha_entr").value;
+
+        if (email.length == 0) {
+            document.getElementById("erro_email").style.display = "block";
+        }
+        
+        else {
+            document.getElementById("erro_email").style.display = "none";
+        }
+
+
+        if(senha.length == 0) {
+            document.getElementById("erro_senha").style.display = "block";
+        }
+        
+        else {
+            document.getElementById("erro_senha").style.display = "none"
+        }
+
+        if (email.length != 0 && senha.length != 0) {
+            document.getElementById("mensagem_entrada").style.fontSize = "60px"
+            document.getElementById("mensagem_entrada").innerHTML = "Cadastro realizado com sucesso!"
+        }
+
+
+
+    }
+</script>
 </html>

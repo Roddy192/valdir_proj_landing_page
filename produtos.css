@@ -1,5 +1,7 @@
 body {
     background-image: url("./background.webp");
+    display: grid;
+    place-items: center;
 
 }
 
@@ -44,15 +46,56 @@ body {
  table {
     border: solid black;
     width: 1000px;
-    height: 1200px;
-    margin-left: 20%;
+    height: 600px;
     margin-top: 50px;
     font-size: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-spacing: 5px;
+
  }
 
  td {
     border: solid black;
-    width: 310px;
-    height: 310px;
-    padding: 0px;
+    width: 100px;
+    height: 100px;
+    text-align: center;  
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ #tab_de {
+    text-decoration: line-through;
+ }
+
+ #tab_por {
+    background-color: rgb(192, 255, 98, 0.7);
+
+ }
+ 
+
+ td:hover {
+    background-color: rgba(228, 57, 214, 0.3);
+ }
+
+ #botao_voltar {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 115, 248);
+    border-color: rgb(204, 115, 248);
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 50px;
+ }
+
+ #botao_voltar:hover {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(94, 39, 122);
+    border-color: rgb(94, 39, 122);
+    transition: all 0.5s;
  }
