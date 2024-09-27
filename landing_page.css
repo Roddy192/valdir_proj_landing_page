@@ -89,6 +89,12 @@ body {
     font-family: "Fascinate Inline", system-ui;
     font-style: normal;
     mix-blend-mode: multiply;
+ }
+
+ #txt_cx_meio:hover {
+   color: rgb(94, 39, 122);
+   font-size: 60px;
+   transition: all 0.5s;
 
  }
  

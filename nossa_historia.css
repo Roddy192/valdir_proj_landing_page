@@ -4,6 +4,62 @@ body {
     place-items: center;
 }
 
+#nav_bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    button, a {
+        font-family: Tahoma;
+        font-weight: bold;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: rgb(204, 115, 248);
+        border-color: rgb(204, 115, 248);
+        padding: 1px;
+
+    }
+
+    a {
+        font-size: 13px;
+        text-decoration: none;
+        width: 80px;
+        display: grid;
+        place-items: center;
+        color: black;
+    }
+ }
+ 
+
+ #botao_l_r:hover {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(94, 39, 122);
+    border-color: rgb(94, 39, 122);
+    padding: 5px;
+    transition: all 0.5s;
+ }
+
+ #botao_m_p:hover {
+    color: rgb(204, 115, 248);
+ }
+
 #caixa {
     background-color: rgb(255,255,255,0.7);
     border-radius: 10px;
