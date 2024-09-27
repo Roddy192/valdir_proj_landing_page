@@ -1,0 +1,56 @@
+body {
+    background-image: url(./background.webp);
+    display: grid;
+    place-items: center;
+}
+
+#caixa {
+    background-color: rgb(255,255,255,0.7);
+    border-radius: 10px;
+    width: 80%;
+    height: 1000px;
+    margin-top: 50px;
+
+    
+}
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+
+    text-align: center;
+    font-weight: bold;
+    font-family: "Fascinate Inline", system-ui;
+    font-style: normal;
+    mix-blend-mode: multiply;
+    padding: 2%;
+}
+
+#botao_voltar {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 115, 248);
+    border-color: rgb(204, 115, 248);
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#botao_voltar:hover {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(94, 39, 122);
+    border-color: rgb(94, 39, 122);
+    transition: all 0.5s;
+}
