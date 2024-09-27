@@ -41,8 +41,11 @@ body {
         place-items: center;
         color: black;
     }
+    
  }
-
+ #botao_m_p:hover {
+   color: rgb(204, 115, 248);
+}
  table {
     border: solid black;
     width: 1000px;

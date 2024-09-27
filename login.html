@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+        </style>
+</head>
+<body>
+    <div id="nav_bar">
+        <div id="brand_nav">PsiCola</div>
+        <a href="./login.html" id="botao_l_r">Login</a>
+        <a href="./registro.html" id="botao_l_r">Registre-se</a>
+    </div>
+    <div id="cx_central">
+        <h1>Faça seu login aqui:</h1>
+        <div id="form_usuario">
+            <form id="form_cad_usuario">
+                <label for="email_entr" id="label"> Email:</label>
+                <input type="text" id="email_entr" name="email_entr" placeholder="Digite aqui o Email"><br>
+
+                <label for="senha_entr" id="label"> Senha:</label>
+                <input type="text" id="senha_entr" name="senha_entr" placeholder="Escolha uma senha"><br>
+
+                <span id="erro_email">Email inválido</span><br>
+                <span id="erro_senha">Senha inválida</span><br>
+
+                <button id="botao_entrar" type="button" onclick="cadastr_usuario()">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="botao_voltar" onclick="window.location.replace('./landing_page.html')">Voltar</button>
+    </div>    
+    
+
+</body>
+</html>

@@ -1,5 +1,6 @@
 body {
     background-image: url("./background.webp");
+    
 
 }
  
@@ -40,6 +41,7 @@ body {
         color: black;
     }
  }
+ 
 
  #botao_l_r:hover {
     font-family: Tahoma;
