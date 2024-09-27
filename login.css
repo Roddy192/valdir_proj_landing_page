@@ -38,6 +38,7 @@ body {
     margin-top: 50px;
     display: grid;
     place-items: center;
+    border-radius: 10px;
 }
 
 #cx_central {

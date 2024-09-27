@@ -1,0 +1,128 @@
+body {
+    background-image: url("./background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav_bar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    button, a {
+        font-family: Tahoma;
+        font-weight: bold;
+        width: 90px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: rgb(204, 115, 248);
+        border-color: rgb(204, 115, 248);
+        padding: 1px;
+
+    }
+
+    a {
+        font-size: 13px;
+        text-decoration: none;
+        width: 80px;
+        display: grid;
+        place-items: center;
+        color: black;
+    }
+    
+ }
+ h1 {
+    margin-left: 28%;
+    margin-top: 5%;
+    font-size: 45px;
+    color: white;
+ }
+ #botao_m_p:hover {
+   color: rgb(204, 115, 248);
+ }
+
+ #botao_voltar {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 115, 248);
+    border-color: rgb(204, 115, 248);
+    padding: 1px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 100px;
+ }
+
+ #botao_voltar:hover {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(94, 39, 122);
+    border-color: rgb(94, 39, 122);
+    transition: all 0.5s;
+ }
+
+ #botao_l_r:hover {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(94, 39, 122);
+    border-color: rgb(94, 39, 122);
+    padding: 5px;
+    transition: all 0.5s;
+ }
+
+ table {
+    border: solid black;
+    width: 1000px;
+    height: 600px;
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-spacing: 5px;
+
+ }
+
+ tr {
+    font-size: 35px;
+ }
+ td {
+    border: solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;  
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ #tab_de {
+    font-size: 20px;
+ }
+
+ #tab_por {
+    background-color: rgb(192, 255, 98, 0.7);
+
+ }
+ 
+
+ td:hover {
+    background-color: rgba(228, 57, 214, 0.3);
+ }
